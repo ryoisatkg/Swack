@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+:root {
+   --base-header-height: 80px;
+   --header-height: calc(var(--base-header-height) - 0px);
+   --below-header-height: calc(100vh - var(--base-header-height));
+   
+   --chat-header-height: 59px;
+   --chat-footer-height: 59px;
+
+}
+
+* {
+	padding:0;
+	margin:0;
+}
+
+h2 {
+	margin:0;
+	padding:10px;
+}
+
+
+
+.global-header {
+	height: var(--header-height);
+}
+
+.below-header-height {
+	height: var(--below-header-height);
+}
+
+.rooms-menu {
+	box-sizing: inherit;
+}
+
+
+.chat-header {
+	top: 0;
+	height: var(--chat-header-height);
+}
+
+.chat-body {
+	box-sizing: inherit;
+	height: calc(100% - 120px);
+	max-height: calc(100% - 120px);
+}
+
+.favorite-body {
+	box-sizing: inherit;
+	height: calc(100% - 64px);
+	max-height: calc(100% - 64px);
+}
+
+.empty-footer {
+	height: 1px;
+	justify-content: flex-end;
+}
+
+
+.chat-footer {
+	height: var(--chat-footer-height);
+	justify-content: flex-end;
+}
+

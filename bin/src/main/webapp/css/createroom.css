@@ -1,0 +1,76 @@
+﻿@charset "UTF-8";
+
+/* createroom.jsp */
+.container {
+	width: 90%;
+	max-width: 500px;
+	height: 100%;
+	margin: auto;
+}
+
+.form-container {
+	max-width: 100%;
+	padding-bottom: 2rem;
+}
+
+.room-form {
+	padding-top: 10%;
+}
+
+.room-form h3 {
+	font-weight: 900;
+	color: #2c2d30;
+}
+
+.form-container form {
+	padding-top: 2%;
+}
+
+label {
+	font-weight: 700;
+	margin: .75rem;
+	display: block;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+}
+
+.name-note {
+	font-size: 1.2rem;
+	color: #717274;
+	display: block;
+	line-height: 1rem;
+	margin: .75rem;
+}
+
+.users-note {
+	font-size: 1.2rem;
+	color: #717274;
+	display: block;
+	line-height: 1rem;
+	margin: .75rem;
+}
+
+.room-form-btn {
+	margin-top: 2%;
+	float: right;
+}
+
+.btnSubmit {
+	width: 100%;
+	border-radius: 1rem;
+	padding: 2%;
+	border: none;
+	cursor: pointer;
+}
+
+.room-form .btnSubmit {
+	font-weight: 600;
+	color: #fff;
+	background-color: #008952;
+}
+
+.room-form .ForgetPwd {
+	color: #fff;
+	font-weight: 600;
+	text-decoration: none;
+}

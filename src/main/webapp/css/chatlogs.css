@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+.chat-body {
+	box-sizing: inherit;
+	height: calc(100%);
+	max-height: calc(100%);
+}
